@@ -40,13 +40,13 @@ For 12 waffles:
 
 1. Put 150.0g warm butter in a bowl
 2. Add 120.0g sugar
-3. Add a packet of vanilla sugar
+3. Add 1.2packet of vanilla sugar
 4. Mix everything
 5. Add 3 eggs
 6. Mix everything
 7. Add 300.0g flour
-8. Add 1TSP baking powder
-9. Add a pinch of salt
+8. Add 1.2TSP baking powder
+9. Add 1 pinch of salt
 10. Mix everything
 11. Add 240.0ml milk
 12. Mix everything
