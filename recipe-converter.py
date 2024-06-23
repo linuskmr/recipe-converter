@@ -30,7 +30,7 @@ def amount_conversion(amount_recipe_match: re.Match) -> str:
     amount_recipe, unit = amount_recipe_match.groups()
 
     # We don't want to resize °C or min ;)
-    if unit not in ['g', 'ml']:
+    if unit not in ['g', 'ml', 'packet', 'TSP', 'TL']:
         return amount_recipe_match[0]
     
     # Convert German decimal separator to English, so float() can parse it
