@@ -13,7 +13,7 @@ target_portions = cli_args.n
 recipe = cli_args.recipe.read()
 
 # Regex for matching `For/Für N portions/waffles/crepes/...`
-portions_regex = "(für|for) (\d+) (.+)"
+portions_regex = r"(für|for) (\d+) (.+)"
 portions_match = re.search(portions_regex, recipe, flags=re.IGNORECASE)
 if not portions_match:
     print("No portion information found")
